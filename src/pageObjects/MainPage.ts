@@ -18,6 +18,11 @@ class MainPage extends Page {
     return browser.element(element);
   }
 
+  get CatRatingBtn() {
+    const element = new Element({ name: 'Кнопка Рейтинг имен', locator: '//a[@href="/rating"]' });
+    return browser.element(element);
+  }
+
   async open() {
     const go = await super.open();
     await this.waitForLoaded();

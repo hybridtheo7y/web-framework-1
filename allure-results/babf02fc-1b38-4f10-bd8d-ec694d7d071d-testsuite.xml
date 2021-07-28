@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627495272900' stop='1627495279959'>
+    <name>Упорядоченность ретинга лайков</name>
+    <title>Упорядоченность ретинга лайков</title>
+    <test-cases>
+        <test-case start='1627495272901' status='passed' stop='1627495279957'>
+            <name>Проверка упорядоченности котиков в ретинге лайков</name>
+            <title>Проверка упорядоченности котиков в ретинге лайков</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1627495272906' status='passed' stop='1627495272907'>
+                    <name>Выполнен переход на страницу [Главная страница]</name>
+                    <title>Выполнен переход на страницу [Главная страница]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1627495277700' status='passed' stop='1627495277700'>
+                    <name>Выполнено ожидание загрузки страницы  [Главная страница]</name>
+                    <title>Выполнено ожидание загрузки страницы  [Главная страница]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1627495277705' status='passed' stop='1627495277802'>
+                    <name>Выполнен поиск элемента [Поле ввода]</name>
+                    <title>Выполнен поиск элемента [Поле ввода]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1627495277961' status='passed' stop='1627495278028'>
+                    <name>Выполнен поиск элемента [Кнопка Рейтинг имен]</name>
+                    <title>Выполнен поиск элемента [Кнопка Рейтинг имен]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1627495278461' status='passed' stop='1627495278461'>
+                    <name>Выполнено ожидание загрузки страницы  [Страница рейтинга имён]</name>
+                    <title>Выполнено ожидание загрузки страницы  [Страница рейтинга имён]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1627495279775' status='passed' stop='1627495279956'>
+                    <name>Проверка упорядоченности лайков</name>
+                    <title>Проверка упорядоченности лайков</title>
+                    <attachments>
+                        <attachment title='Значение лайков котика Наира №1 рейтинга' source='eb6e5ebd-d727-4616-a32b-5bfc6a0c13c5-attachment.txt' type='text/plain' size='5'/>
+                        <attachment title='Значение лайков котика Комета №2 рейтинга' source='16fb3b0c-179e-44a2-9f4e-4a4bb7850277-attachment.txt' type='text/plain' size='3'/>
+                        <attachment title='Значение лайков котика Кси №3 рейтинга' source='75f61b5d-8069-4251-89be-7a58bfb6f348-attachment.txt' type='text/plain' size='2'/>
+                        <attachment title='Значение лайков котика Эллада №4 рейтинга' source='9aca4cde-574f-4d10-8e19-3dfa47e705ac-attachment.txt' type='text/plain' size='2'/>
+                        <attachment title='Значение лайков котика Баскер №5 рейтинга' source='39094fc0-3b8f-4dc5-8a60-420ae3fb2bec-attachment.txt' type='text/plain' size='2'/>
+                        <attachment title='Значение лайков котика Гвинет №6 рейтинга' source='de1e7820-af4b-4c7a-9604-0308b24b6b19-attachment.txt' type='text/plain' size='2'/>
+                        <attachment title='Значение лайков котика Фрида №7 рейтинга' source='b6145091-2fdf-419f-b7eb-667c6e57886a-attachment.txt' type='text/plain' size='2'/>
+                        <attachment title='Значение лайков котика Дезмонд №8 рейтинга' source='0708e1bd-e2ba-48dd-8a84-a769838f6c28-attachment.txt' type='text/plain' size='2'/>
+                        <attachment title='Значение лайков котика Жизель №9 рейтинга' source='b5e13c99-0454-42a1-9bec-5b46a5f1e0f0-attachment.txt' type='text/plain' size='2'/>
+                        <attachment title='Значение лайков котика Табита №10 рейтинга' source='7c4bc3a1-27b6-437a-82c3-6fd002b874e4-attachment.txt' type='text/plain' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
